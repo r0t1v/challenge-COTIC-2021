@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+	box-sizing: border-box;
+    margin: 0;
+}
+/*DISPOSITIVOS PEQUENOS*/
+@media only screen and (max-width: 600px) {
 .main-bg{
     background-image: url('../assets/The-Boys-segunda-temporada-scaled.jpg');
     background-size: cover;
@@ -5,3 +13,384 @@
 .transparent{
     opacity: 0.5;
 }
+/* --------------------------------- body index ---------------------------------*/
+.mainfront{
+	width: 100%;
+	font-family: Bebas Neue; 
+	margin: auto;
+}
+.mainfront h1{
+	font-family: Bebas Neue; 
+	background-color: #e84118;
+	box-shadow: 0 10px #c23616;
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 2.5rem;
+	font-size: 36px;
+	color: white;
+}
+.mainfront .container{
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#theboystatus{
+	background-color: #00a8ff;
+	color: white;
+	font-size: 36px;
+	border-radius: 5.0rem;
+	box-shadow: 0 20px #0097e6;
+	margin: 50px;
+}
+#theboystatus i{
+	font-size: 86px;
+	color: black;
+}
+#supesstatus{
+	background-color: #fbc531;
+	color: white;
+	font-size: 36px;
+	border-radius: 5.0rem;
+	box-shadow: 0 20px #e1b12c;
+	margin: 50px;
+}
+#supesstatus i{
+	font-size: 86px;
+	color: black;
+}
+/* --------------------------------- body index ---------------------------------*/
+/* --------------------------------- body formulario ---------------------------------*/
+.formulario{
+	width: 95%;
+	margin: auto;
+	margin-top: 50px;
+	font-family: Bebas Neue;
+	background-color: white;
+	border-radius: 4.0rem;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.formulario h1{
+	font-size: 56px;
+	font-weight: bold;
+	color: black;
+	padding: 25px;
+}
+.formulario form{
+	width: 95%;
+	margin: auto;
+	font-family: Montserrat;
+}
+.formulario .container .row span{
+	margin: auto;
+}
+.formulario .container .row{
+	padding: 5px;
+}
+.formulario .container .row .form-check{
+	padding: 0px 15px 0px 15px;
+	margin: auto;
+}
+/* --------------------------------- body formulario ---------------------------------*/
+/* --------------------------------- body lista ---------------------------------*/
+.lista{
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding: 10px;
+	font-family: Montserrat;
+	border-radius: 1.0rem;
+}
+.lista table{
+	background-color: white;
+}
+/* --------------------------------- body lista ---------------------------------*/
+footer{
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	color: white;
+	font-family: Montserrat; 
+	font-size: 18px;
+	background-color: black;
+	border-top-right-radius: 1.25rem;
+	border-top-left-radius: 1.25rem;
+	padding: 10px;
+	margin-top: 50px;
+}
+}
+/*DISPOSITIVOS PEQUENOS*/
+/*DISPOSITIVOS MEDIOS*/
+@media only screen and (min-width: 601px) {
+.main-bg{
+    background-image: url('../assets/The-Boys-segunda-temporada-scaled.jpg');
+    background-size: cover;
+}
+.transparent{
+    opacity: 0.5;
+}
+/* --------------------------------- body index ---------------------------------*/
+.mainfront{
+	width: 100%;
+	font-family: Bebas Neue; 
+	margin: auto;
+}
+.mainfront h1{
+	font-family: Bebas Neue; 
+	background-color: #e84118;
+	box-shadow: 0 10px #c23616;
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 2.5rem;
+	font-size: 36px;
+	color: white;
+}
+.mainfront .container{
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#theboystatus{
+	background-color: #00a8ff;
+	color: white;
+	font-size: 36px;
+	border-radius: 5.0rem;
+	box-shadow: 0 20px #0097e6;
+	margin: 50px;
+}
+#theboystatus i{
+	font-size: 86px;
+	color: black;
+}
+#supesstatus{
+	background-color: #fbc531;
+	color: white;
+	font-size: 36px;
+	border-radius: 5.0rem;
+	box-shadow: 0 20px #e1b12c;
+	margin: 50px;
+}
+#supesstatus i{
+	font-size: 86px;
+	color: black;
+}
+/* --------------------------------- body index ---------------------------------*/
+/* --------------------------------- body formulario ---------------------------------*/
+.formulario{
+	width: 95%;
+	margin: auto;
+	margin-top: 50px;
+	font-family: Bebas Neue;
+	background-color: white;
+	border-radius: 4.0rem;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.formulario h1{
+	font-size: 56px;
+	font-weight: bold;
+	color: black;
+	padding: 25px;
+}
+.formulario form{
+	width: 95%;
+	margin: auto;
+	font-family: Montserrat;
+}
+.formulario .container .row span{
+	margin: auto;
+}
+.formulario .container .row{
+	padding: 5px;
+}
+.formulario .container .row .form-check{
+	padding: 0px 15px 0px 15px;
+	margin: auto;
+}
+/* --------------------------------- body formulario ---------------------------------*/
+/* --------------------------------- body lista ---------------------------------*/
+.lista{
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding: 10px;
+	font-family: Montserrat;
+	border-radius: 1.0rem;
+}
+.lista table{
+	background-color: white;
+}
+/* --------------------------------- body lista ---------------------------------*/
+footer{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	color: white;
+	font-family: Montserrat; 
+	font-size: 18px;
+	background-color: black;
+	border-top-right-radius: 1.25rem;
+	border-top-left-radius: 1.25rem;
+	padding: 10px;
+	margin-top: 50px;
+}
+}
+/*DISPOSITIVOS MEDIOS*/
+/*DISPOSITIVOS GRANDES*/
+@media only screen and (min-width: 800px) {
+.main-bg{
+    background-image: url('../assets/The-Boys-segunda-temporada-scaled.jpg');
+    background-size: cover;
+}
+.transparent{
+    opacity: 0.5;
+}
+#itemmenu{
+	font-size: 20px;
+	padding: 5px;
+}
+/* Animação menu*/
+#itemmenu {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+#itemmenu::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+#itemmenu:hover::after,
+#itemmenu:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+#itemmenu::after {
+  opacity 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+#itemmenu:hover::after,
+#itemmenu:focus::after{
+  transform: scale(1);
+}
+/* Animação menu*/
+/* --------------------------------- body index ---------------------------------*/
+.mainfront{
+	width: 100%;
+	font-family: Bebas Neue; 
+	margin: auto;
+}
+.mainfront h1{
+	font-family: Bebas Neue; 
+	background-color: #e84118;
+	box-shadow: 0 10px #c23616;
+	width: 65%;
+	margin: auto;
+	margin-top: 100px;
+	padding: 20px;
+	border-radius: 2.5rem;
+	font-size: 56px;
+	color: white;
+}
+.mainfront .container{
+	width: 70%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#theboystatus{
+	background-color: #00a8ff;
+	color: white;
+	font-size: 36px;
+	border-radius: 5.0rem;
+	box-shadow: 0 20px #0097e6;
+	margin: 50px;
+}
+#theboystatus i{
+	font-size: 86px;
+	color: black;
+}
+#supesstatus{
+	background-color: #fbc531;
+	color: white;
+	font-size: 36px;
+	border-radius: 5.0rem;
+	box-shadow: 0 20px #e1b12c;
+	margin: 50px;
+}
+#supesstatus i{
+	font-size: 86px;
+	color: black;
+}
+/* --------------------------------- body index ---------------------------------*/
+/* --------------------------------- body formulario ---------------------------------*/
+.formulario{
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+	font-family: Bebas Neue;
+	background-color: white;
+	border-radius: 4.0rem;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.formulario h1{
+	font-size: 56px;
+	font-weight: bold;
+	color: black;
+	padding: 25px;
+}
+.formulario form{
+	width: 95%;
+	margin: auto;
+	font-family: Montserrat;
+}
+.formulario .container .row span{
+	margin: auto;
+}
+.formulario .container .row{
+	padding: 10px;
+}
+.formulario .container .row .form-check{
+	padding: 0px 15px 0px 15px;
+	margin: auto;
+}
+/* --------------------------------- body formulario ---------------------------------*/
+/* --------------------------------- body lista ---------------------------------*/
+.lista{
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding: 10px;
+	font-family: Montserrat;
+	border-radius: 1.0rem;
+}
+/* --------------------------------- body lista ---------------------------------*/
+footer{
+	width: 50%;
+	height: 100px;
+	margin: auto;
+	color: white;
+	font-family: Montserrat; 
+	font-size: 18px;
+	background-color: black;
+	border-top-right-radius: 1.25rem;
+	border-top-left-radius: 1.25rem;
+	padding: 20px;
+	margin-top: 200px;
+}
+}
+/*DISPOSITIVOS GRANDES*/
