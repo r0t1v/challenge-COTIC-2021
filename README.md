@@ -2,7 +2,7 @@
   	<img alt="PT-BR" src="https://i.imgur.com/3fl9Sfi.gif" width="30" height="20"/>
 </p>
 
-# Desafio COTIC 2021 - Vaga para estagiário de desenvolvimento
+# Desafio COTIC 2021 - Vaga para Estagiário de Desenvolvimento
 Um desafio para competir por uma vaga de estagiário no COTIC. 
 - Modelagem [UML](https://drive.google.com/file/d/1C6QiaF7RSVMNLFh1J1BcQEB4znT1ZhyI/view)
 - Crie um banco de dados com o nome "desafio" e execute esse arquivo de consulta [Database.sql](https://drive.google.com/file/d/1t6tmtzzNh0fp-Fa8JgAt7PwHCJ5T34zm/view?usp=sharing)
@@ -20,7 +20,7 @@ Por fim, a tabela `personagens` já possui 3 elementos teste pré-inseridos no a
   	<img alt="EN-US" src="https://i.imgur.com/QqtGoQ4.gif" width="30" height="20" />
 </p>
 
-# challenge-COTIC-2021
+# COTIC Challenge 2021 - Vacancy for Development Trainee 
 A challenge to compete for a trainee vacancy in COTIC
 - Model [UML](https://drive.google.com/file/d/1C6QiaF7RSVMNLFh1J1BcQEB4znT1ZhyI/view)
 - Create a Database named "desafio" and execute this query file [Database.sql](https://drive.google.com/file/d/1t6tmtzzNh0fp-Fa8JgAt7PwHCJ5T34zm/view?usp=sharing)
